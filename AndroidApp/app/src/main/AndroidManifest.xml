@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.trianguloy.instantintent"
+    android:versionCode="5"
+    android:versionName="0.1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Opener"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="@string/url"
+                    android:pathPrefix="@string/path"
+                    android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <meta-data
+                android:name="default-url"
+                android:value="https://trianguloy.github.io/intent/" />
+        </activity>
+    </application>
+
+    <dist:module dist:instant="true" />
+
+</manifest>

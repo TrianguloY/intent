@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Instant Intent</string>
+    <string name="url">trianguloy.github.io</string>
+    <string name="path">/intent/</string>
+
+    <string name="toast_nointent">no intent</string>
+    <string name="toast_invaliddata">invalid data</string>
+    <string name="toast_nourl">no url</string>
+    <string name="toast_invaliduri">Invalid Intent Uri</string>
+    <string name="toast_cantstart">Can\'t start intent</string>
+    <string name="toast_unknown">Unkwnown exception</string>
+    <string name="toast_nodata">no data</string>
+    <string name="txt_info">You can open intents by going to\nhttps://trianguloy.github.io/intent/{intent uri}\n\nOptionally enter the uri below and press the button</string>
+    <string name="btn_open">Open Intent</string>
+    <string name="hint_uri">intent uri</string>
+</resources>
