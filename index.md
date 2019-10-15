@@ -1,3 +1,5 @@
+[See on Github](https://github.com/TrianguloY/intent)
+
 # Instant intent
 This is an experiment for the [instant app](https://support.google.com/googleplay/answer/7683278) feature available on newer android versions. You can open intents directly (if you have the 'instant app' feature enabled) just by going to a specific url (see usage below). Note that this is different than simply opening an url, here you can add extras, data, flags or even the specific package/component to launch.
 
