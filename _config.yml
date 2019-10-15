@@ -1,1 +1,2 @@
 exclude: ['AndroidApp']
+theme: jekyll-theme-midnight
