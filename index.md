@@ -12,4 +12,7 @@ https://trianguloy.github.io/intent/{intent uri}
 
 ## Examples
 Here are a few examples you can try if you have instant apps enabled:
-[Work in progress]
+* Share a text: [https://trianguloy.github.io/intent/#Intent;action=android.intent.action.SEND;type=text/plain;launchFlags=0x1;S.android.intent.extra.SUBJECT=Instant%20intent;S.android.intent.extra.TEXT=Cool%20app;end](https://trianguloy.github.io/intent/#Intent;action=android.intent.action.SEND;type=text/plain;launchFlags=0x1;S.android.intent.extra.SUBJECT=Instant%20intent;S.android.intent.extra.TEXT=Cool%20app;end)
+* Add an event to a calendar: [https://trianguloy.github.io/intent/content://com.android.calendar/events#Intent;action=android.intent.action.INSERT;S.title=A%20calendar%20Event;end](https://trianguloy.github.io/intent/content://com.android.calendar/events#Intent;action=android.intent.action.INSERT;S.title=A%20calendar%20Event;end)
+* Send an email: [https://trianguloy.github.io/intent/mailto:#Intent;action=android.intent.action.SENDTO;S.android.intent.extra.SUBJECT=Instant%20intent;S.android.intent.extra.EMAIL=correo--correo%2Bappiie%40hotmail.com;end](https://trianguloy.github.io/intent/mailto:#Intent;action=android.intent.action.SENDTO;S.android.intent.extra.SUBJECT=Instant%20intent;S.android.intent.extra.EMAIL=correo--correo%2Bappiie%40hotmail.com;end)
+* Open google maps on a query: [https://trianguloy.github.io/intent/geo:0,0?q=34.99,-106.61(Treasure)](https://trianguloy.github.io/intent/geo:0,0?q=34.99,-106.61(Treasure))
